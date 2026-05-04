@@ -31,7 +31,11 @@ def evaluate_ragas(questions: list[str], answers: list[str],
     # Thử dùng RAGAS thực (cần OpenAI API key)
     try:
         from ragas import evaluate
-        from ragas.metrics import faithfulness, answer_relevancy, context_precision, context_recall
+        try:
+            from ragas.metrics.collections import (faithfulness, answer_relevancy,
+                                                    context_precision, context_recall)
+        except ImportError:
+            from ragas.metrics import faithfulness, answer_relevancy, context_precision, context_recall
         from datasets import Dataset
 
         # Bước 1: Tạo Dataset từ các list đầu vào
