@@ -1,3 +1,82 @@
 [
-  {"question": "hihi cả nhà tự tạo testset bằng cơm nhé", "ground_truth": "Không kịp tạo luôn"},
+  {
+    "question": "Nhân viên chính thức được nghỉ phép năm bao nhiêu ngày?",
+    "ground_truth": "Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm."
+  },
+  {
+    "question": "Số ngày nghỉ phép tăng thêm như thế nào theo thâm niên?",
+    "ground_truth": "Số ngày nghỉ phép tăng thêm 1 ngày cho mỗi 5 năm thâm niên công tác, tối đa 20 ngày/năm."
+  },
+  {
+    "question": "Nhân viên thử việc có được nghỉ phép không?",
+    "ground_truth": "Nhân viên thử việc chưa được hưởng quyền nghỉ phép năm."
+  },
+  {
+    "question": "Nghỉ phép năm không dùng hết có được chuyển sang năm sau không?",
+    "ground_truth": "Nghỉ phép năm không sử dụng hết có thể chuyển sang năm tiếp theo tối đa 5 ngày."
+  },
+  {
+    "question": "Nhân viên được nghỉ phép không lương tối đa bao nhiêu ngày?",
+    "ground_truth": "Nhân viên có thể xin nghỉ phép không lương tối đa 30 ngày mỗi năm."
+  },
+  {
+    "question": "Cần nộp giấy xác nhận y tế khi nghỉ ốm trong bao lâu?",
+    "ground_truth": "Cần nộp giấy xác nhận y tế từ bệnh viện trong vòng 3 ngày làm việc kể từ khi trở lại làm việc."
+  },
+  {
+    "question": "Nhân viên nữ được nghỉ thai sản bao nhiêu tháng?",
+    "ground_truth": "Nhân viên nữ được nghỉ thai sản 6 tháng theo quy định của Bộ luật Lao động."
+  },
+  {
+    "question": "Mật khẩu phải được thay đổi sau bao lâu?",
+    "ground_truth": "Mật khẩu phải được thay đổi mỗi 90 ngày."
+  },
+  {
+    "question": "Độ dài mật khẩu tối thiểu là bao nhiêu ký tự?",
+    "ground_truth": "Mật khẩu phải có độ dài tối thiểu 12 ký tự, bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt."
+  },
+  {
+    "question": "Tài khoản bị khóa sau bao nhiêu lần đăng nhập sai?",
+    "ground_truth": "Tài khoản sẽ bị khóa sau 5 lần đăng nhập sai liên tiếp."
+  },
+  {
+    "question": "Hệ thống VPN công ty dùng công nghệ gì?",
+    "ground_truth": "Hệ thống VPN dùng WireGuard với mã hóa AES-256-GCM."
+  },
+  {
+    "question": "Thời gian thử việc của nhân viên là bao lâu?",
+    "ground_truth": "Thời gian thử việc là 60 ngày đối với vị trí nhân viên và 90 ngày đối với vị trí quản lý."
+  },
+  {
+    "question": "Lương trong thời gian thử việc là bao nhiêu phần trăm?",
+    "ground_truth": "Trong thời gian thử việc, lương bằng 85% lương đã thỏa thuận."
+  },
+  {
+    "question": "Chương trình Onboarding kéo dài bao nhiêu ngày?",
+    "ground_truth": "Nhân viên mới được tham gia chương trình Onboarding 3 ngày trong tuần đầu tiên."
+  },
+  {
+    "question": "Ngân sách đào tạo mỗi nhân viên được cấp mỗi năm là bao nhiêu?",
+    "ground_truth": "Mỗi nhân viên được cấp ngân sách đào tạo 5,000,000 VNĐ/năm cho các khóa học chuyên môn."
+  },
+  {
+    "question": "Đánh giá hiệu suất được thực hiện mấy lần mỗi năm?",
+    "ground_truth": "Đánh giá hiệu suất được thực hiện 2 lần/năm: tháng 6 và tháng 12."
+  },
+  {
+    "question": "Nhân viên nam được nghỉ bao nhiêu ngày khi vợ sinh con?",
+    "ground_truth": "Nhân viên nam được nghỉ 5 ngày khi vợ sinh con hoặc 7 ngày khi vợ sinh đôi trở lên."
+  },
+  {
+    "question": "Sự cố bảo mật phải được báo cáo trong bao lâu?",
+    "ground_truth": "Nhân viên phát hiện sự cố bảo mật phải báo cáo ngay cho bộ phận IT trong vòng 1 giờ."
+  },
+  {
+    "question": "Đánh giá thử việc được thực hiện vào thời điểm nào?",
+    "ground_truth": "Nhân viên thử việc được đánh giá vào tuần thứ 4 và tuần cuối của giai đoạn thử việc."
+  },
+  {
+    "question": "Phân loại dữ liệu có mấy cấp độ?",
+    "ground_truth": "Dữ liệu được phân loại thành 4 cấp: Public, Internal, Confidential, và Restricted."
+  }
 ]
